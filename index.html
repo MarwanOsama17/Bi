@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Happy Birthday!</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="icon" type="image/png" href="logo.png" />
+  </head>
+  <body>
+    <div id="fireworks-container"></div>
+    <h1 id="birthday-text">Happy Birthday!! 💖✨🎂</h1>
+    <br />
+    <div id="first" class="content">
+      <button id="button" onclick="handleButtonClick()">Ready? 🎀</button>
+    </div>
+    <div id="loading">
+      <div class="spinner"></div>
+      <div class="loading-text" id="loading-message"></div>
+    </div>
+    <div id="letter">
+      <h2>I... I... have a little something to say... 👉👈</h2>
+      <div class="envelope">
+        <div class="flap"></div>
+        <div class="heart" id="heart"></div>
+      </div>
+    </div>
+
+    <div id="letter-message">Happy Birthday Bestie!! 🎂💖✨</div>
+    <div id="game">
+      <h2 id="game-title">Catch the Hearts! 💘</h2>
+      <p id="game-instructions">
+        Click as many falling hearts as you can before time runs out!
+      </p>
+      <div id="game-area"></div>
+      <div id="game-overlay"></div>
+      <p id="score-display">Score: 0</p>
+      <p id="timer-display">Time: 15s</p>
+    </div>
+    <div id="chat-scene" class="chat-scene">
+      <div class="chat-container" id="chat-container"></div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
