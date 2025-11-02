@@ -280,7 +280,6 @@ function showQuiz() {
   quizContainer.style.justifyContent = "center";
   quizContainer.style.alignItems = "center";
   quizContainer.style.height = "100vh";
-  quizContainer.style.background = "linear-gradient(135deg, #ffe6f7, #fff0fa)";
   quizContainer.style.transition = "opacity 1s ease";
   quizContainer.style.opacity = 0;
 
@@ -575,3 +574,4 @@ function showQuiz() {
 
   showQuestion(current);
 }
+
