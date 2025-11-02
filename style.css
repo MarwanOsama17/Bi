@@ -1,5 +1,3 @@
-* { font-family: "Caveat Brush" !important; }
-
 @import url(https://fonts.googleapis.com/css?family=Lato:300italic);
 
 html,
@@ -757,6 +755,8 @@ h1 {
   transform: scale(1.1);
   box-shadow: 0 0 15px #ff69b4, 0 0 30px #ff85c1;
 }
+
+* { font-family: "Caveat Brush" !important; }
 
 
 
