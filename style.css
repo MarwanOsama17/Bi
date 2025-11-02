@@ -105,7 +105,6 @@ body {
 
 .text {
   color: #8b6a60;
-  font-family: "Lato", sans-serif;
   font-weight: 300;
   font-style: italic;
   text-align: center;
@@ -341,7 +340,6 @@ h1 {
 #letter h2 {
   font-size: 1.4rem;
   color: #ff4fa0;
-  font-family: "Comic Sans MS", cursive, sans-serif;
   text-align: center;
   margin: 0 0 15px 0;
   text-shadow: 1px 1px 6px #ffd6e8, 0 0 10px #ffb6f9;
@@ -367,7 +365,6 @@ h1 {
 
 /* Message styling */
 .message {
-  font-family: "Comic Sans MS", cursive, sans-serif;
   font-size: 28px;
   color: hotpink;
   text-align: center;
@@ -391,7 +388,6 @@ h1 {
   overflow: hidden;
   background: linear-gradient(135deg, #ffd6e8, #fff0f6);
   text-align: center;
-  font-family: "Comic Sans MS", cursive;
   opacity: 0;
   transition: opacity 1.5s ease;
 }
@@ -550,7 +546,6 @@ h1 {
   justify-content: flex-end;
   gap: 10px;
   position: relative;
-  font-family: "Comic Sans MS", cursive, sans-serif;
   box-sizing: border-box; /* include padding in width */
   overflow-x: hidden; /* hide horizontal overflow inside chat box */
   overflow-y: auto; /* allow vertical scroll if too tall */
@@ -650,7 +645,6 @@ h1 {
   background: #f0f0f0 url("https://i.imgur.com/Q1q4lYV.png") center/cover;
   min-height: 100vh;
   padding: 30px;
-  font-family: "Poppins", sans-serif;
 }
 
 .chat-scene.show {
@@ -761,4 +755,5 @@ h1 {
   transform: scale(1.1);
   box-shadow: 0 0 15px #ff69b4, 0 0 30px #ff85c1;
 }
+
 
