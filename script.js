@@ -383,7 +383,7 @@ function showQuiz() {
   `;
 
     const endBtn = document.createElement("button");
-    endBtn.textContent = "Aww thanks 💕";
+    endBtn.textContent = "💕";
     endBtn.style.marginTop = "25px";
     endBtn.style.background = "linear-gradient(45deg, #218aff, #72b4ff)";
     endBtn.style.border = "none";
@@ -574,4 +574,5 @@ function showQuiz() {
 
   showQuestion(current);
 }
+
 
